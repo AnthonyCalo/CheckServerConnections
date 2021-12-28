@@ -1,0 +1,68 @@
+reddit.com is up on port 80 with plain
+Time: 2021-12-27 22:22:15.854226
+Success Status: True
+___________________________
+anthonycalo.com is up on port 80 with plain
+Time: 2021-12-27 22:22:15.902219
+Success Status: True
+___________________________
+calochess.com is up on port 80 with plain
+Time: 2021-12-27 22:22:15.942605
+Success Status: True
+___________________________
+192.168.1.18 is not reachable
+Time: 2021-12-27 22:22:16.016552
+Success Status: False
+___________________________
+reddit.com is up on port 80 with plain
+Time: 2021-12-27 22:24:22.790658
+Success Status: True
+___________________________
+anthonycalo.com is up on port 443 with ssl
+Time: 2021-12-27 22:24:22.830277
+Success Status: True
+___________________________
+calochess.com is up on port 80 with plain
+Time: 2021-12-27 22:24:22.956351
+Success Status: True
+___________________________
+192.168.1.18 is not reachable
+Time: 2021-12-27 22:24:23.000224
+Success Status: False
+___________________________
+reddit.com is up on port 80 with plain
+Time: 2021-12-27 22:30:52.658366
+Success Status: True
+___________________________
+anthonycalo.com is up on port 443 with ssl
+Time: 2021-12-27 22:30:52.706593
+Success Status: True
+___________________________
+calochess.com is up on port 80 with plain
+Time: 2021-12-27 22:30:52.771040
+Success Status: True
+___________________________
+192.168.1.18 is not reachable
+Time: 2021-12-27 22:30:52.835052
+Success Status: False
+___________________________
+ac-encryption.com is up on port 443 with ssl
+Time: 2021-12-27 22:30:52.841557
+Success Status: True
+___________________________
+reddit.com is up on port 80 with plain
+Time: 2021-12-27 22:32:50.289354
+Success Status: True
+___________________________
+anthonycalo.com is up on port 443 with ssl
+Time: 2021-12-27 22:32:50.336819
+Success Status: True
+___________________________
+calochess.com is up on port 80 with plain
+Time: 2021-12-27 22:32:50.426973
+Success Status: True
+___________________________
+192.168.1.18 is not reachable
+Time: 2021-12-27 22:32:50.466346
+Success Status: False
+___________________________
