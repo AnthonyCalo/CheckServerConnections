@@ -1,11 +1,9 @@
 import socket
 import ssl
 from datetime import datetime 
-import pickle
-import subprocess
-import platform
 import requests
-
+import Gmail
+import backend_db as backend
 
 class Server():
     def __init__(self, name, port, connection, priority):
@@ -13,8 +11,8 @@ class Server():
         self.port=port
         self.connection=connection.lower()
         self.priority=priority.lower()
-        self.history=[]
         self.alert=False
+        self.locations=backend.view_locations()
     
     def check_connection(self):
         msg=""
@@ -36,19 +34,36 @@ class Server():
                     success=True
                 else:
                     msg="{} is not reachable".format(self.name)
+                    if(self.priority=="high"):
+                        try:
+                            Gmail.email_alert("Server Down", msg, "anthony.calo@baruchmail.cuny.edu")
+                        except Exception:
+                            print("Couldn't send email becuase: {}".format(Exception))
+
         except socket.timeout:
             msg= "Server: {} timeout on port {}".format(self.name, self.port)
+            if(self.priority=="high"):
+                try:
+                    Gmail.email_alert("Server Down", msg, "anthony.calo@baruchmail.cuny.edu")
+                except Exception:
+                    print("Couldn't send email becuase: {}".format(Exception))
         except Exception as e:
             msg="Server had this error: {}".format(e)
+            if(self.priority=="high"):
+                try:
+                    Gmail.email_alert("Server Down", msg, "anthony.calo@baruchmail.cuny.edu")
+                except Exception:
+                    print("Couldn't send email becuase: {}".format(Exception))
         self.create_history(msg, success, now)
     
     def create_history(self, msg, success, time):
-        with open("history.txt", 'a') as f:
-            f.write(msg)
-            f.write("\n")
-            f.write("Time: {}\nSuccess Status: {}\n".format(time, success))
-            f.write("___________________________")
-            f.write("\n")
+        for location in self.locations:
+            with open(location[1], 'a') as f:
+                f.write(msg)
+                f.write("\n")
+                f.write("Time: {}\nSuccess Status: {}\n".format(time, success))
+                f.write("___________________________")
+                f.write("\n")
 
     def ping(self):
         try:

@@ -1,8 +1,10 @@
-reddit.com is up on port 80 with plain
-Time: 2021-12-27 22:22:15.854226
+amazon.com is up on port 443 with ssl
+Time: 2021-12-28 21:51:34.249734
 Success Status: True
 ___________________________
-anthonycalo.com is up on port 80 with plain
+__
+
+onycalo.com is up on port 80 with plain
 Time: 2021-12-27 22:22:15.902219
 Success Status: True
 ___________________________
@@ -64,5 +66,161 @@ Success Status: True
 ___________________________
 192.168.1.18 is not reachable
 Time: 2021-12-27 22:32:50.466346
+Success Status: False
+___________________________
+anthonycalo.com is up on port 443 with ssl
+Time: 2021-12-28 14:07:48.001890
+Success Status: True
+___________________________
+calochess.com is up on port 80 with plain
+Time: 2021-12-28 14:07:48.156546
+Success Status: True
+___________________________
+anthonycalo.com is up on port 443 with ssl
+Time: 2021-12-28 16:14:34.202273
+Success Status: True
+___________________________
+calochess.com is up on port 80 with plain
+Time: 2021-12-28 16:14:34.373083
+Success Status: True
+___________________________
+192.168.1.18 is not reachable
+Time: 2021-12-28 16:14:34.488095
+Success Status: False
+___________________________
+anthonycalo.com is up on port 443 with ssl
+Time: 2021-12-28 16:20:53.443351
+Success Status: True
+___________________________
+calochess.com is up on port 80 with plain
+Time: 2021-12-28 16:20:53.570938
+Success Status: True
+___________________________
+Server had this error: [WinError 10054] An existing connection was forcibly closed by the remote host
+Time: 2021-12-28 16:20:53.635531
+Success Status: False
+___________________________
+anthonycalo.com is up on port 443 with ssl
+Time: 2021-12-28 16:21:19.570613
+Success Status: True
+___________________________
+calochess.com is up on port 80 with plain
+Time: 2021-12-28 16:21:19.718848
+Success Status: True
+___________________________
+amazon.com is up on port 443 with ssl
+Time: 2021-12-28 16:21:19.779901
+Success Status: True
+___________________________
+anthonycalo.com is up on port 443 with ssl
+Time: 2021-12-28 16:56:50.278464
+Success Status: True
+___________________________
+calochess.com is up on port 80 with plain
+Time: 2021-12-28 16:56:50.386437
+Success Status: True
+___________________________
+amazon.com is up on port 443 with ssl
+Time: 2021-12-28 16:56:50.449013
+Success Status: True
+___________________________
+Server had this error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)
+Time: 2021-12-28 16:56:50.549894
+Success Status: False
+___________________________
+anthonycalo.com is up on port 443 with ssl
+Time: 2021-12-28 16:59:12.550299
+Success Status: True
+___________________________
+calochess.com is up on port 80 with plain
+Time: 2021-12-28 16:59:12.690526
+Success Status: True
+___________________________
+amazon.com is up on port 443 with ssl
+Time: 2021-12-28 16:59:12.737124
+Success Status: True
+___________________________
+Server had this error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)
+Time: 2021-12-28 16:59:12.836120
+Success Status: False
+___________________________
+anthonycalo.com is up on port 443 with ssl
+Time: 2021-12-28 17:02:57.584739
+Success Status: True
+___________________________
+calochess.com is up on port 80 with plain
+Time: 2021-12-28 17:02:57.649469
+Success Status: True
+___________________________
+amazon.com is up on port 443 with ssl
+Time: 2021-12-28 17:02:57.723976
+Success Status: True
+___________________________
+anthonycalo.com is up on port 443 with ssl
+Time: 2021-12-28 21:52:31.270515
+Success Status: True
+___________________________
+calochess.com is up on port 80 with plain
+Time: 2021-12-28 21:52:31.375352
+Success Status: True
+___________________________
+amazon.com is up on port 443 with ssl
+Time: 2021-12-28 21:52:31.500814
+Success Status: True
+___________________________
+anthonycalo.com is up on port 443 with ssl
+Time: 2021-12-28 21:53:05.112742
+Success Status: True
+___________________________
+calochess.com is up on port 80 with plain
+Time: 2021-12-28 21:53:05.203199
+Success Status: True
+___________________________
+apptracker.us is up on port 80 with plain
+Time: 2021-12-28 21:53:05.256630
+Success Status: True
+___________________________
+anthonycalo.com is up on port 443 with ssl
+Time: 2021-12-28 21:56:35.125007
+Success Status: True
+___________________________
+calochess.com is up on port 80 with plain
+Time: 2021-12-28 21:56:35.224603
+Success Status: True
+___________________________
+apptracker.us is up on port 80 with plain
+Time: 2021-12-28 21:56:35.276276
+Success Status: True
+___________________________
+anthonycalo.com is up on port 443 with ssl
+Time: 2021-12-28 22:49:58.199226
+Success Status: True
+___________________________
+calochess.com is up on port 80 with plain
+Time: 2021-12-28 22:49:58.350362
+Success Status: True
+___________________________
+apptracker.us is up on port 80 with plain
+Time: 2021-12-28 22:49:58.448388
+Success Status: True
+___________________________
+Server had this error: [Errno 11001] getaddrinfo failed
+Time: 2021-12-28 22:49:59.697867
+Success Status: False
+___________________________
+anthonycalo.com is up on port 443 with ssl
+Time: 2021-12-28 22:53:33.887179
+Success Status: True
+___________________________
+calochess.com is up on port 80 with plain
+Time: 2021-12-28 22:53:34.031512
+Success Status: True
+___________________________
+apptracker.us is up on port 80 with plain
+Time: 2021-12-28 22:53:34.094566
+Success Status: True
+___________________________
+Server had this error: [Errno 11001] getaddrinfo failed
+Time: 2021-12-28 22:53:34.171591
 Success Status: False
 ___________________________
